@@ -8,7 +8,7 @@ public class Main {
         System.out.println(veredicto(args[1], args[2]));
     }
 
-    public static String veredicto(String cadena1, String cadena2) {
+    private static String veredicto(String cadena1, String cadena2) {
         if (Integer.parseInt(cadena1) > Integer.parseInt(cadena2)) {
             return "Poco tiempo de estudio. Debes dedicar más tiempo";
         } else if (Integer.parseInt(cadena1) == Integer.parseInt(cadena2)) {
