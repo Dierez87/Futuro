@@ -15,5 +15,7 @@ public class Main {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
         }
         return "Ideal. Trabajas los contenidos en casa.";
+
+        //Diego Pérez Antón
     }
 }
